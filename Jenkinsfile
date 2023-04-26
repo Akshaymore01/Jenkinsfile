@@ -2,7 +2,7 @@ pipeline {
 
 	agent {
 
-		label "built-in"
+		label "slave-1"
 
 		}
 
@@ -12,7 +12,7 @@ pipeline {
 
 			steps {
 
-				sh "yum install tree -y"
+				echo "this is q2"
 				
 				}
 			}
