@@ -12,7 +12,7 @@ pipeline {
 
 			steps {
 
-				echo "this is q2"
+				echo "this is q2 main"
 				
 				}
 			}
